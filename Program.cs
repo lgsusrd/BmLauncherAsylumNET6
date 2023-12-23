@@ -103,7 +103,7 @@ namespace BmLauncherAsylumNET6
         public static void LauncherBypass() // Edited from BmLauncherForm.launchButton_Click
         {
             logger.Info("Launcher bypassed: No configuration changes made.");
-
+            DetectTexmod();
 
             using (Process launchBmGame = new())
             {
